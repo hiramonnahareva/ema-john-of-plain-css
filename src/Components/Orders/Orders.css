@@ -19,6 +19,9 @@
 .cart-container .delete-icon {
     color: #FFFFFF;
 }
+.link-btn {
+    text-decoration: none;
+}
 .cart-container  .checkout-btn {
     background: #FF9900;
     width: 290px;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import useProducts from '../../Hooks/useProducts';
 import useCart from '../../Hooks/useCart';
 import Cart from '../Cart/Cart';
@@ -35,9 +35,9 @@ const Orders = () => {
                         Clear Cart
                         <FontAwesomeIcon className='delete-icon' icon={faTrashAlt}></FontAwesomeIcon>
                         </button>
-                       <Link to='/shop'>
+                       <Link className='link-btn' to='/Shipment'>
                         <button className='checkout-btn'>
-                            Proceed Checkout
+                            Proceed Shiping
                         <FontAwesomeIcon icon={faCreditCard}></FontAwesomeIcon>
                         </button>
                         </Link>

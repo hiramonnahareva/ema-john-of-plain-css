@@ -60,7 +60,7 @@ const Shop = () => {
                         Clear Cart
                         <FontAwesomeIcon className='delete-icon' icon={faTrashAlt}></FontAwesomeIcon>
                         </button>
-             <Link to='/orders'>
+             <Link className='link-btn' to='/orders'>
                  <button className='checkout-btn'>
                      Review Order
                      <FontAwesomeIcon icon={faCreditCard}></FontAwesomeIcon>
